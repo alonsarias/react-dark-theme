@@ -1,0 +1,40 @@
+{
+  "name": "react-dark-theme",
+  "displayName": "React Dark Theme",
+  "description": "A dark theme inspired by React website, offering comfortable coding.",
+  "version": "1.0.2",
+  "publisher": "alonsarias",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alonsarias/react-dark-theme"
+  },
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Dark Theme",
+    "Theme",
+    "React JS",
+    "react",
+    "color-theme"
+  ],
+  "galleryBanner": {
+    "color": "#0F7799",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "React Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/React Dark Theme-color-theme.json"
+      }
+    ]
+  },
+  "pricing": "Free"
+}
